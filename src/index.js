@@ -6,7 +6,7 @@ require('./config/dbConfig')
 const app = express()
 
 const corsOptions = {
-    origin: ['http://localhost:3000'],
+    origin: ['https://notes-interface-app.netlify.app', 'http://localhost:3000', 'https://notes-frontend-1eog.vercel.app/'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     allowedHeaders: ['Content-Type', 'Authorization'],
 };
